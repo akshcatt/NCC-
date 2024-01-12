@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    padding: 1vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+.header img {
+    height: 10vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.header h2 {
+    color: #fff;
+    font-size: 5vh;
+}
+
+.header p {
+    color: #fff;
+    font-size: 5vh;
+}
+
+.lower {
+    background-image: url(NCC.jpeg);
+    height: 85vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 90%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    border-radius: 1vh;
+    padding: 4vh;
+}
+
+form {
+    height: auto;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vh;
+    background-color: aliceblue;
+    padding: 5vh;
+    border-radius: 1vh;
+    box-shadow: rgba(165, 203, 243, 0.8) 0 0 5px 5px;
+}
+
+
+form * {
+    padding: 1vh;
+    font-size: 2.2vh;
+    border: none;
+    border-radius: 0.5vh;
+    width: calc(100%/2 - 20px);
+}
+
+form button {
+    background-color: blue;
+    color: #fff;
+}
+
+input,
+select {
+    box-shadow: black 0 0 1px 1px;
+
+}
+
+.register {
+    font-size: 50px;
+    background-color: blue;
+    border: none;
+    border-radius: 1vh;
+    padding: 2vh;
+}
+
+a {
+    color: #fff;
+}
+
+select {
+    width: 24.5vh;
+}
+
+.popup {
+    height: 25vh;
+    width: 25vh;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popup * {
+    font-size: xx-large;
+}
