@@ -12,7 +12,7 @@ let students = [];
 
 
 btn.addEventListener("click", (evt) => {
-    evt.preventDefault();
+    
     let student = {
         "name": name.value,
         "branch": branch.value,
